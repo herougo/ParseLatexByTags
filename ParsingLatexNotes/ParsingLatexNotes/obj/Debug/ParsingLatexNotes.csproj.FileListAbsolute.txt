@@ -1,0 +1,18 @@
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.exe.config
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.exe
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.pdb
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.csprojResolveAssemblyReference.cache
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.Properties.Resources.resources
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.csproj.GenerateResource.Cache
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.exe
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.pdb
+C:\Henri\My Documents\Visual Studio 2012\Projects\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.Form1.resources
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.exe.config
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.exe
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.pdb
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.exe
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\bin\Debug\ParsingLatexNotes.pdb
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.csprojResolveAssemblyReference.cache
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.Form1.resources
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.Properties.Resources.resources
+C:\Users\henri\Documents\GitHub\ParseLatexByTags\ParsingLatexNotes\ParsingLatexNotes\obj\Debug\ParsingLatexNotes.csproj.GenerateResource.Cache
