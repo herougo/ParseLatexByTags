@@ -118,9 +118,9 @@ namespace ParsingLatexNotes
                 string trimmed = line.Trim();
                 if (trimmed.Length >= 3)
                 {
-                    if (trimmed[0] == '#') {
-                        string tag = trimmed.Replace("#", String.Empty).Trim();
-                        if (trimmed[1] == '#')
+                    if (trimmed[0] == '%') {
+                        string tag = trimmed.Replace("%", String.Empty).Trim();
+                        if (trimmed[1] == '%')
                         {
                             foreach (string entry in matched)
                             {
@@ -131,7 +131,7 @@ namespace ParsingLatexNotes
                             }
                             matched.Push(tag);
                         }
-                        else if (trimmed[trimmed.Length - 1] == '#')
+                        else if (trimmed[trimmed.Length - 1] == '%')
                         {
                             if (matched.Count <= 0 || matched.Peek() != tag)
                             {
@@ -195,14 +195,14 @@ namespace ParsingLatexNotes
             for (int i = 0; i < file_lines.Count; i++)
             {
                 string line = file_lines.ElementAt(i).Trim();
-                if (line.Length >= 3 && line.Contains("l") && line.Substring(0, 1) == "#")
+                if (line.Length >= 3 && line.Contains("l") && line.Substring(0, 1) == "%")
                 {
-                    string tag = line.Replace("#", String.Empty);
-                    if (line.Substring(1, 1) == "#")
+                    string tag = line.Replace("%", String.Empty);
+                    if (line.Substring(1, 1) == "%")
                     {
                         tag_line_numbers.Push(i);
                     }
-                    else if (line.Substring(line.Length - 1, 1) == "#")
+                    else if (line.Substring(line.Length - 1, 1) == "%")
                     {
                         int top = tag_line_numbers.Pop();
 
@@ -596,19 +596,19 @@ namespace ParsingLatexNotes
                     }
                     else if (trimmed.Length >= 3)
                     {
-                        if (trimmed[0] == '#')
+                        if (trimmed[0] == '%')
                         {
-                            string tag = trimmed.Replace("#", String.Empty).Trim();
+                            string tag = trimmed.Replace("%", String.Empty).Trim();
 
                             foreach (char c in tag)
                             {
                                 if (extraction_tag_values.Contains(c.ToString()))
                                 {
-                                    if (trimmed[1] == '#')
+                                    if (trimmed[1] == '%')
                                     {
                                         read_tags.Push(tag);
                                     }
-                                    else if (trimmed[trimmed.Length - 1] == '#')
+                                    else if (trimmed[trimmed.Length - 1] == '%')
                                     {
                                         read_tags.Pop();
                                     }

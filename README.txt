@@ -16,13 +16,13 @@ Here is the dictionary for the current tags
             {"Grid/Table", "g"}
         };
 
-The syntax is ##d to begin a definition and #d# to end a definition. That is, 
+The syntax is %%d to begin a definition and %d% to end a definition. That is, 
 
-##d
+%%d
 photosynthesis - ...
-#d#
+%d%
 
-Note that ##d and #d# must have their own separate lines (whitespace on either side is fine though).
+Note that %%d and %d% must have their own separate lines (whitespace on either side is fine though).
 
 You can also use combinations of letters to combine tags. Here is the current list of those
 
